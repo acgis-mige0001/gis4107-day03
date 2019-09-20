@@ -15,7 +15,7 @@ reload(Converter)
 mi = 10
 km = Converter.miles_to_km(mi)
 
-print str(mi) + "{} mi = {:.4} km".format(mi, km)
+print "{} mi = {:.4} km".format(mi, km)
 
 km_per_hr = 100
 m_per_s = Converter.kmPerHr_to_mPerSec(km_per_hr)
